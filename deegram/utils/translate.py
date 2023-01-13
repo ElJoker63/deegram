@@ -1,5 +1,5 @@
 VERSION = "0.1.1"
-CREATOR = "@aykut"
+CREATOR = "@ElJoker63"
 BOT_NAME = "Deegram"
 WELCOME_MSG = (
 	f"🎶🎵 Welcome to {BOT_NAME} 🎵🎶\n\n"
