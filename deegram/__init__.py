@@ -32,11 +32,11 @@ botStartTime = time.time()
 load_dotenv()
 
 try:
-    API_ID = int("7684605")
+    API_ID = 7684605
     API_HASH = "d270d70e8d3c3ad969ea6ecb5857e30b"
     BOT_TOKEN = "5610672568:AAGmdzaJ7QDC3tnR0aeZNoTrDj9U8KH58BQ"
-    DEEZER_TOKEN = "a5a43398fa06b55f9eb8b072b71628df2739652f168b321f969f213d4b5704dc531fa1ef492f74026121e6fd99b2ce298bbb82caea3f2326c6b749b59f1761962df05f635e91cb2b02090bcf30eff9e0a61a4efa6cc66ac5d35f09a1c384e5d4"
-    OWNER_ID = int("5004180573")
+    DEEZER_TOKEN = "2212b1160f748eb2bf00783218f77d74"
+    OWNER_ID = 5004180573
 except KeyError:
     logger.error("One or more environment variables are missing! Exiting now…")
     sys.exit(1)
